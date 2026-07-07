@@ -1,0 +1,40 @@
+/* Palette drawn from the kitchen's own renders and the diagram set:
+   driftwood/sand neutrals, sea-glass sage + slate-blue accents,
+   ink #2C2C2A to match the SVG diagrams' text. */
+:root {
+  --ink: #2c2c2a;
+  --ink-soft: #5f5e5a;
+  --ink-faint: #8a877f;
+
+  --paper: #faf8f3;
+  --surface: #ffffff;
+  --sand: #f1ece2;
+  --sand-deep: #e2dac9;
+  --line: #ddd5c6;
+  --line-soft: #eae4d8;
+
+  --driftwood: #8a7b66;
+  --sage: #8fa98f;
+  --sage-deep: #55704f;
+  --sage-tint: #edf2ea;
+  --slate: #5c7387;
+  --slate-deep: #45586a;
+  --slate-tint: #e9eef3;
+
+  --warn: #9a6416;
+  --warn-tint: #fdf4e3;
+  --warn-line: #e5c98f;
+  --flag: #a8433f;
+  --flag-tint: #f9ecea;
+
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 1px 3px rgba(44, 44, 42, 0.07);
+
+  --font: -apple-system, "Segoe UI", system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+  --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+
+  --content-w: 760px;
+  --wide-w: 1000px;
+  --tap: 48px;
+}

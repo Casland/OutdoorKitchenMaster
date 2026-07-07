@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="440" viewBox="0 0 680 440" font-family="Arial, Helvetica, sans-serif">
+<title>Backsplash zones, elevation</title>
+<text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C2C2A">Backsplash — 18" band, zoned by heat (elevation, wall unrolled flat)</text>
+<text x="340" y="46" text-anchor="middle" font-size="12" fill="#5F5E5A">~18 LF of back wall. Grout behind a grill is a grease trap: smooth large-format porcelain in the heat zone instead of stainless.</text>
+
+<!-- Z-flashing -->
+<rect x="70" y="120" width="540" height="6" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.75"/>
+
+<!-- Band: 18in tall = 90px, y 126-216 -->
+<!-- Grill zone 4ft of 18ft => 120px: x 70-190 -->
+<rect x="70" y="126" width="120" height="90" fill="#E8E6E0" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="130" y1="126" x2="130" y2="216" stroke="#B4B2A9" stroke-width="0.75"/>
+<line x1="70" y1="171" x2="190" y2="171" stroke="#B4B2A9" stroke-width="0.75"/>
+
+<!-- Corner zone 3ft => 90px: x 190-280 -->
+<rect x="190" y="126" width="90" height="90" fill="#DDDACF" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="235" y1="126" x2="235" y2="216" stroke="#B4B2A9" stroke-width="0.75"/>
+
+<!-- Feature zone 11ft => 330px: x 280-610, picket pattern -->
+<rect x="280" y="126" width="330" height="90" fill="#E1F5EE" stroke="#5F5E5A" stroke-width="0.75"/>
+<g stroke="#5DCAA5" stroke-width="0.75" fill="none">
+<path d="M 292 126 L 302 141 L 302 201 L 292 216"/>
+<path d="M 314 126 L 324 141 L 324 201 L 314 216"/>
+<path d="M 336 126 L 346 141 L 346 201 L 336 216"/>
+<path d="M 358 126 L 368 141 L 368 201 L 358 216"/>
+<path d="M 380 126 L 390 141 L 390 201 L 380 216"/>
+<path d="M 402 126 L 412 141 L 412 201 L 402 216"/>
+<path d="M 424 126 L 434 141 L 434 201 L 424 216"/>
+<path d="M 446 126 L 456 141 L 456 201 L 446 216"/>
+<path d="M 468 126 L 478 141 L 478 201 L 468 216"/>
+<path d="M 490 126 L 500 141 L 500 201 L 490 216"/>
+<path d="M 512 126 L 522 141 L 522 201 L 512 216"/>
+<path d="M 534 126 L 544 141 L 544 201 L 534 216"/>
+<path d="M 556 126 L 566 141 L 566 201 L 556 216"/>
+<path d="M 578 126 L 588 141 L 588 201 L 578 216"/>
+</g>
+
+<!-- Movement joints between zones -->
+<line x1="190" y1="126" x2="190" y2="216" stroke="#0F6E56" stroke-width="2.5"/>
+<line x1="280" y1="126" x2="280" y2="216" stroke="#0F6E56" stroke-width="2.5"/>
+
+<!-- Silicone joint + counter -->
+<rect x="70" y="216" width="540" height="4" fill="#0F6E56"/>
+<rect x="60" y="220" width="560" height="14" fill="#ECEAE4" stroke="#8A5F2A" stroke-width="1.25"/>
+
+<!-- Appliance positions dashed below counter -->
+<rect x="82" y="242" width="96" height="52" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="130" y="272" font-size="11" fill="#5F5E5A" text-anchor="middle">grill</text>
+<circle cx="235" cy="268" r="26" fill="none" stroke="#A32D2D" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="235" y="272" font-size="11" fill="#A32D2D" text-anchor="middle">kamado</text>
+<rect x="380" y="242" width="70" height="52" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="5 3"/>
+<text x="415" y="272" font-size="11" fill="#5F5E5A" text-anchor="middle">sink</text>
+
+<!-- Zone width dimensions -->
+<line x1="70" y1="106" x2="190" y2="106" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="70" y1="100" x2="70" y2="112" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="190" y1="100" x2="190" y2="112" stroke="#5F5E5A" stroke-width="0.75"/>
+<text x="130" y="98" font-size="11" fill="#5F5E5A" text-anchor="middle">~4' smooth · ~12 sq ft</text>
+
+<line x1="196" y1="106" x2="280" y2="106" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="280" y1="100" x2="280" y2="112" stroke="#5F5E5A" stroke-width="0.75"/>
+<text x="238" y="98" font-size="11" fill="#5F5E5A" text-anchor="middle">~3' · ~5 sq ft</text>
+
+<line x1="286" y1="106" x2="610" y2="106" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="610" y1="100" x2="610" y2="112" stroke="#5F5E5A" stroke-width="0.75"/>
+<text x="448" y="98" font-size="11" fill="#5F5E5A" text-anchor="middle">~11' feature tile · ~20 sq ft + 20% waste (pickets waste more)</text>
+
+<!-- Height dimension -->
+<line x1="630" y1="126" x2="630" y2="216" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="624" y1="126" x2="636" y2="126" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="624" y1="216" x2="636" y2="216" stroke="#5F5E5A" stroke-width="0.75"/>
+<text x="642" y="175" font-size="11" fill="#5F5E5A">18"</text>
+
+<!-- Legend / rules -->
+<text x="70" y="330" font-size="13" font-weight="bold" fill="#2C2C2A">Rules baked into this elevation</text>
+<text x="70" y="350" font-size="11" fill="#5F5E5A">— Z-flashing across the top plate (gray strip), sloped toward the fence, front edge caulked</text>
+<text x="70" y="366" font-size="11" fill="#0F6E56">— Green lines = SILICONE movement joints: at the counter and at every zone/material change — never grout there</text>
+<text x="70" y="382" font-size="11" fill="#5F5E5A">— Grill + kamado zones: smooth 24"+ light porcelain, minimal grout lines; feature zone: your pick of the four comps</text>
+<text x="70" y="398" font-size="11" fill="#5F5E5A">— Epoxy grout, one shade darker than instinct; porcelain/glass only — never stone behind a cook surface</text>
+<text x="70" y="414" font-size="11" fill="#5F5E5A">— Buy one extra box of the feature tile as attic stock; dye lots disappear</text>
+</svg>

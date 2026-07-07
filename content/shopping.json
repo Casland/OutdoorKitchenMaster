@@ -1,0 +1,938 @@
+{
+  "$comment": "Detailed per-phase buy lists derived from docs/build-guide.md. source: guide = stated verbatim in the docs; estimate = derived, sanity-check before buying; measure = site measurement needed first. Edit freely — this file is yours; assumptions lists every derivation judgment call. Rebuild after editing. See CONTENT.md.",
+  "phases": [
+    {
+      "phase": -1,
+      "items": [
+        {
+          "item": "2\" ABS DWV pipe",
+          "spec": "2\" × 10' stick, ABS DWV (cellular-core fine for drain)",
+          "qty": "1",
+          "unit": "stick",
+          "source": "estimate",
+          "note": "Covers the under-paver run + riser stub capped 6–8\" proud (Step 1). ABS chosen per guide: 'San Diego is traditionally ABS territory' — match it (or transition cement) at tie-in day."
+        },
+        {
+          "item": "2\" ABS long-sweep 90",
+          "spec": "2\" DWV long-sweep quarter bend (long-turn 90)",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Turns the run up into the sink bay. Guide: long-sweep 90 OR two 45s — NEVER a tight vent elbow. Buy the sweep; substitute two 2\" 45s only if the sweep won't fit the seam geometry. The sweep makes the riser rodding access for the whole run."
+        },
+        {
+          "item": "2\" ABS caps",
+          "spec": "2\" DWV cap, ABS",
+          "qty": "2",
+          "unit": "each",
+          "source": "estimate",
+          "note": "One on the riser (cut to height at Phase 8 trim-out — tall stubs survive construction), one on the yard end at/below grade. Photograph + measure the yard cap to the fence post."
+        },
+        {
+          "item": "ABS solvent cement",
+          "spec": "8 oz can, black ABS cement (no primer needed for ABS)",
+          "qty": "1",
+          "unit": "can",
+          "source": "estimate",
+          "note": "For all drain joints. If you ever mix ABS/PVC, guide says use transition cement."
+        },
+        {
+          "item": "2\" Sch 40 PVC pipe",
+          "spec": "2\" × 10' stick, Schedule 40 PVC",
+          "qty": "1",
+          "unit": "stick",
+          "source": "estimate",
+          "note": "One stick yields BOTH 18–24\" straight sleeves: gas sleeve (Step 2) + spare chase (Step 3). Guide allows 3\" for 'luxurious clearance' on the gas sleeve; 2\" ID (~2.07\") passes ¾–1\" CSST, fittings included. Do NOT lay actual gas pipe."
+        },
+        {
+          "item": "2\" PVC caps",
+          "spec": "2\" Sch 40 PVC cap",
+          "qty": "4",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Both ends of gas sleeve + both ends of spare chase. Leave dry-fit/taped (they come off at pull-through); Sharpie ends 'GAS SLEEVE' and 'SPARE', photograph both runs."
+        },
+        {
+          "item": "Pull string",
+          "spec": "Mason line / poly pull twine, 250' spool",
+          "qty": "1",
+          "unit": "spool",
+          "source": "estimate",
+          "note": "Guide requires a pull string left inside the gas sleeve AND the spare chase; spool spec is mine. Leftover reused for the Phase 1 corner gas chase."
+        },
+        {
+          "item": "Bedding sand",
+          "spec": "All-purpose/paver sand, 50 lb bag",
+          "qty": "2",
+          "unit": "bags",
+          "source": "estimate",
+          "note": "'A few inches of sand between each' pipe and to re-bed pulled pavers. Trench order across the seam is law: drain, spare, gas — gas OUTERMOST, nothing touching."
+        },
+        {
+          "item": "½\" PEX tubing",
+          "spec": "½\" PEX-A or PEX-B, red or white coil",
+          "qty": "~25 (measure)",
+          "unit": "ft",
+          "source": "measure",
+          "note": "Measure from the existing supply riser, routed LOW and AROUND the fridge bay (never behind the fridge — compressor/exhaust path), to the sink bay; add slack for the low route."
+        },
+        {
+          "item": "½\" PEX fittings kit",
+          "spec": "Adapter to existing supply pipe type (verify), 2× ½\" elbows or bend supports, ½\" stub-out/ball valve, crimp or expansion rings to match your tool",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Guide says only 'PEX + fittings'. Verify what the existing water stub is (copper/CPVC/PEX) before picking the adapter."
+        },
+        {
+          "item": "1½\" P-trap + sink tailpiece",
+          "spec": "1½\" tubular P-trap (ABS/poly, not chrome brass outdoors) + matching 1½\" tailpiece",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Step 6: hard-pipe tailpiece + trap NOW so above-floor plumbing is done once; interim discharge to the jug. Run the trap arm as HIGH as the sink allows (18–20\" above pavers) — banked fall budget."
+        },
+        {
+          "item": "2\" × 1½\" trap adapter",
+          "spec": "2\" DWV × 1½\" slip-joint trap adapter, ABS",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Joins the 1½\" trap arm to the 2\" riser on tie-in day; riser doubles as rodding access once the trap is pulled. Cheap to buy now with the ABS order."
+        },
+        {
+          "item": "Sealed catch jug",
+          "spec": "5–7 gal carboy or jerry can",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "The interim drain — 'much nicer than an open bucket: no splash, no smell, no mosquitoes.' Empty to a proper drain, not the landscape."
+        },
+        {
+          "item": "Bulkhead fitting",
+          "spec": "Bulkhead tank fitting sized to the trap discharge hose/pipe (typ. 1\"–1½\")",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Guide specifies a bulkhead fitting in the jug lid/wall; size is my call — match whatever connects the trap outlet to the jug."
+        }
+      ]
+    },
+    {
+      "phase": 0,
+      "items": [
+        {
+          "item": "PVC conduit offset fittings",
+          "spec": "Sch 40 PVC 'meter offset' fittings, trade size matched to existing stubs (likely ¾\" — verify)",
+          "qty": "3–4 (measure)",
+          "unit": "each",
+          "source": "measure",
+          "note": "~$2 each per guide (or heat-gun-bend your own). Count = number of pipes in the stubs — confirm what the second pipe in the double stub is BEFORE demo; it changes the plan if it's not a spare."
+        },
+        {
+          "item": "PVC conduit couplings",
+          "spec": "Sch 40 PVC coupling, same trade size as stubs",
+          "qty": "4",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Glue onto each cut-down stub (leave a coupling's worth above the pavers) before the offset goes on. Step 0.2.4."
+        },
+        {
+          "item": "PVC conduit caps",
+          "spec": "Push-on caps or tape plugs, same trade size",
+          "qty": "4",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Cap the open conduit ends until Phase 2."
+        },
+        {
+          "item": "PVC cement + primer (gray/conduit)",
+          "spec": "Small can each, rated for electrical PVC",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Serves Phase 0 offsets and the Phase 2 conduit runs."
+        },
+        {
+          "item": "PT 2×4 sill lumber",
+          "spec": "Pressure-treated 2×4, above-ground UC3A tag, 8' (length assumed — take a cut list from the footprint)",
+          "qty": "8–10",
+          "unit": "boards",
+          "source": "guide",
+          "note": "Guide count is 8–10. Every wall line incl. backsplash wall and kamado cradle; short chorded segments (or band-sawn curve) under the arc. Drill ~¼\"-oversize holes mid-board where conduit rises — stronger than a notch."
+        },
+        {
+          "item": "Shims",
+          "spec": "Cedar shim contractor pack (composite shims = the rot-proof upgrade the guide names)",
+          "qty": "2",
+          "unit": "packs",
+          "source": "guide",
+          "note": "Shim to the laser at every bearing point, packing UP from the pavers' high point — never grind down."
+        },
+        {
+          "item": "PL Premium construction adhesive",
+          "spec": "Loctite PL Premium, 10 oz cartridge",
+          "qty": "2",
+          "unit": "cartridges",
+          "source": "guide",
+          "note": "Guide: 'PL Premium ×2'. Bed every sill run before anchoring."
+        },
+        {
+          "item": "Tapcon anchors",
+          "spec": "¼\" × 3¼\" hex-head Tapcon, 25-count box w/ matched masonry bit (length derived: 1½\" PT + ≥1\" paver embedment)",
+          "qty": "1",
+          "unit": "box",
+          "source": "estimate",
+          "note": "Guide says 'Tapcons/paver anchors every few feet' — ~25 covers ~60 LF of sill at ~3' spacing. NO anchor ever lands on the marked drain or gas-sleeve lines — they sit at exactly bedding depth (Phase −1 anchor-conflict warning)."
+        },
+        {
+          "item": "Sill seal foam",
+          "spec": "Closed-cell polyethylene sill seal, 3½\" × 50' roll",
+          "qty": "2",
+          "unit": "rolls",
+          "source": "estimate",
+          "note": "Non-negotiable isolation over the TOP of every PT run before any steel touches it — ACQ/copper-azole PT corrodes galvanized steel. Buy 2 rolls to cover all runs; return one if the LF comes in under 50'."
+        }
+      ]
+    },
+    {
+      "phase": 1,
+      "items": [
+        {
+          "item": "Steel studs",
+          "spec": "3-5/8\" × 10' 20-gauge EQ galvanized studs — label reads -18/-19/-20/-23 mil; AVOID -14/-16",
+          "qty": "~50",
+          "unit": "sticks",
+          "source": "guide",
+          "note": "10-footers yield three ~33\" studs per stick (locked cut length 32-13/16\"). Buy from J&B (El Cajon) or Westside (Sorrento Valley) supply yards, not HD. Dry-stack one test sandwich to 34-13/16\" before gang-cutting fifty."
+        },
+        {
+          "item": "Steel track",
+          "spec": "3-5/8\" × 10' 20-gauge EQ track (U-channel, no return lips)",
+          "qty": "~14",
+          "unit": "sticks",
+          "source": "guide",
+          "note": "Don't mix up with studs. Curved corner track: snip both flanges every 1–2\" and bend — comes out of this count. Blocking/ledgers/boxed members also cut from the stud+track sticks — no separate purchase."
+        },
+        {
+          "item": "#8 × ½\" wafer-head self-drilling TEK screws",
+          "spec": "500-count box",
+          "qty": "1",
+          "unit": "box",
+          "source": "guide",
+          "note": "Stud↔track, ~4 per stud. Buy online/Fastenal, not HD. Heads-up (my math, flagged): 150 cut studs × 4 = 600 — grab a second box if you cut all 50 sticks."
+        },
+        {
+          "item": "#10 × ¾\" hex-head TEK screws",
+          "spec": "100-count box; G185 hot-dip or stainless coating — plain zinc never touches PT",
+          "qty": "1",
+          "unit": "box",
+          "source": "guide",
+          "note": "Track→PT sill; they bite the wood better. The G185/stainless rule at PT is law."
+        },
+        {
+          "item": "Cold-galvanizing spray",
+          "spec": "Cold-galv zinc spray, standard rattle can",
+          "qty": "2",
+          "unit": "cans",
+          "source": "guide",
+          "note": "EVERY cut edge gets sprayed — non-negotiable outdoors. Also every deburred track weep hole (Step 1.3)."
+        },
+        {
+          "item": "PVC pipe for corner gas chase",
+          "spec": "1¼\"–1½\" Sch 40 PVC × 10' (guide's stated size range)",
+          "qty": "1",
+          "unit": "stick",
+          "source": "guide",
+          "note": "Step 1.4b: route through the kamado corner's stud knockouts while framing is bare, both ends emerging in flanking bays. ~$8 of pipe; once the Big Joe loads the cradle this corner is blind forever."
+        },
+        {
+          "item": "1½\" PVC caps",
+          "spec": "Cap to match chase pipe size",
+          "qty": "2",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Cap both chase ends, insert pull string (Phase −1 spool), label 'GAS CHASE'."
+        },
+        {
+          "item": "Aluminum angle for hinge backing",
+          "spec": "1\"×1\" × 1/8\" aluminum angle, 8' lengths",
+          "qty": "2 (measure)",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "Step 1.6: bolt across the hinge-side stud at EVERY door opening NOW — a thin stud web won't hold a hinge for 20 years, miserable retrofit. Count door openings for LF. Guide's alternative: boxed heavier-gauge stud from track offcuts."
+        }
+      ]
+    },
+    {
+      "phase": 2,
+      "items": [
+        {
+          "item": "PVC electrical conduit",
+          "spec": "¾\" Sch 40 gray electrical PVC × 10' (size assumed — must match the existing stubs; verify before buying)",
+          "qty": "~5 (measure)",
+          "unit": "sticks",
+          "source": "measure",
+          "note": "Conduit runs the WHOLE way — island interior is a damp/wet location: THWN-2 in conduit, no Romex, no bare UF. Measure both circuit paths through stud bays and knockouts."
+        },
+        {
+          "item": "Conduit fittings assortment",
+          "spec": "¾\": 4–6 sweep 90s, ~10 couplings, 8–10 male terminal adapters (2 per box entry), LB only if a run needs it",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Guide names offsets (bought Phase 0) and generic 'fittings'; this assortment is my derivation for two circuits and five boxes."
+        },
+        {
+          "item": "Snap-in bushings/grommets",
+          "spec": "Plastic snap bushings sized to the 1½\" stud knockouts + conduit KOs, bag of ~20",
+          "qty": "1",
+          "unit": "bag",
+          "source": "estimate",
+          "note": "Guide: 'bushings/grommets on any cut steel edge.' Grommets at every knockout regardless — abrasion protection is a separate rule from strike protection (D19)."
+        },
+        {
+          "item": "Weatherproof outlet boxes",
+          "spec": "Single-gang PVC weatherproof ('Bell') boxes with ¾\" hubs",
+          "qty": "4",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Grill: low 8–12\" in adjacent cavity; fridge: in ADJACENT cabinet, never behind the fridge; sink: high on sidewall away from trap drips; kamado: near cradle. Anything near the propane bay mounts HIGH — gas pools low."
+        },
+        {
+          "item": "Weatherproof junction box",
+          "spec": "PVC WP j-box, 4\" square class, ¾\" hubs",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Accessible splice hub in the fridge cavity — a removable panel counts as accessible; buried behind tile doesn't."
+        },
+        {
+          "item": "THWN-2 wire",
+          "spec": "12 AWG stranded THWN-2 — black + red (hots), white ×2 or shared per fill (neutrals), green (ground)",
+          "qty": "measure",
+          "unit": "ft",
+          "source": "measure",
+          "note": "Measure each conduit path end-to-end, add 10% + box tails. Two 20A circuits: (1) fridge dedicated, (2) grill + kamado + sink convenience. Pull, coil tails, land NOTHING until Phase 8. Remember D20: a future point-of-use water heater (~12A) weighs on circuit loading."
+        },
+        {
+          "item": "Cord pass-through grommet",
+          "spec": "Rubber desk-type grommet, ~1\" hole",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Fridge cord pass-through from cavity to adjacent-bay outlet; steel wool + sealant close it at Phase 8 — pest highway otherwise."
+        }
+      ]
+    },
+    {
+      "phase": 3,
+      "items": [
+        {
+          "item": "½\" cement board",
+          "spec": "½\" × 3'×5' sheets (Durock/Hardie)",
+          "qty": "~26",
+          "unit": "sheets",
+          "source": "guide",
+          "note": "Guide's own caveat: the open back removed ~100 sq ft from earlier estimates — RE-COUNT against the final plan before buying, then buy 2–3 extra. Grill-bay back sheet gets pre-attached to its panel at Phase 1 tilt-up. Respirator for every cut — non-negotiable."
+        },
+        {
+          "item": "Backer screws",
+          "spec": "Power Pro #9 × 1¼\" ceramic-coated wafer-head backer screws, 925-count box",
+          "qty": "1",
+          "unit": "box",
+          "source": "guide",
+          "note": "Covers the whole project. 1¼\" is right: ½\" board + ¾\" past it to thread the steel. Screws every 8\" into studs."
+        },
+        {
+          "item": "Alkali-resistant mesh tape",
+          "spec": "2\" × 150' alkali-resistant fiberglass mesh",
+          "qty": "2",
+          "unit": "rolls",
+          "source": "estimate",
+          "note": "All seams + corners, plus the curved wall's facet joints (Step 3.5.2)."
+        },
+        {
+          "item": "Thinset for seams/facets",
+          "spec": "Polymer-modified thinset, 50 lb bag",
+          "qty": "2",
+          "unit": "bags",
+          "source": "estimate",
+          "note": "Seam taping, facet packing, and laminating alternate on the curve. Cladding thinset is a separate Phase 4 buy."
+        },
+        {
+          "item": "Waterproofing membrane",
+          "spec": "RedGard or AquaDefense, 1-gal pails",
+          "qty": "2",
+          "unit": "gal",
+          "source": "guide",
+          "note": "Counter deck (top + back edge) + clad faces ONLY — two coats, opposing directions. Boarded back gets NO membrane (drying side by design, D24). Clad within 2–4 months — UV degrades it, rain doesn't."
+        },
+        {
+          "item": "Z-flashing",
+          "spec": "Galvanized or stainless Z-profile sized to the backsplash top plate width",
+          "qty": "measure (~2 × 10')",
+          "unit": "pieces",
+          "source": "measure",
+          "note": "Across the backsplash top plate, sloped toward the fence, front edge caulked. Measure top-plate length + lap allowance."
+        },
+        {
+          "item": "Weep screed",
+          "spec": "Stucco weep screed for ~1\" finish stack, 10' sticks",
+          "qty": "measure (~4)",
+          "unit": "sticks",
+          "source": "measure",
+          "note": "Base perimeter of all clad faces, ~½\" above pavers (D17 — no raw wood at grade). Measure clad perimeter LF."
+        },
+        {
+          "item": "¼\" galvanized hardware cloth",
+          "spec": "¼\" mesh galvanized hardware cloth, 36\" × 25' roll",
+          "qty": "1 (measure)",
+          "unit": "roll",
+          "source": "measure",
+          "note": "Entire back EXCEPT the grill bay; kamado corner stays cloth (D14). Cavity height ~33\" fits 36\" width; measure back LF minus grill bay. Curved corner gets stapled progressively during Phase 1 framing — buy before framing if you want it on hand then."
+        },
+        {
+          "item": "Stainless screws + fender washers (cloth attachment)",
+          "spec": "#8 stainless pan-heads + stainless fender washers, small box each",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Cloth 'staples/screws on from the front through the bays'."
+        },
+        {
+          "item": "Rockwool ComfortBatt R-15",
+          "spec": "R-15 mineral wool batt pack",
+          "qty": "1",
+          "unit": "pack",
+          "source": "guide",
+          "note": "Guide's Phase 3 list: '1 pack does grill bay + fridge bay + sink back.' Note Step 3.4 separately demotes the grill-bay-adjacent cavity batt to a buy-it-later retrofit — flagged for review; reconcile before checkout."
+        },
+        {
+          "item": "¼\" cement board (curved wall)",
+          "spec": "¼\" × 3'×5' sheets",
+          "qty": "2",
+          "unit": "sheets",
+          "source": "guide",
+          "note": "Cut into vertical strips ~6\" wide, one per arc stud bay — flat facets, zero bending stress. Two backer screws per strip per stud."
+        },
+        {
+          "item": "Expanded-metal lath",
+          "spec": "Galvanized expanded-metal lath, 2.5 lb, 27\"×96\" sheets",
+          "qty": "2",
+          "unit": "sheets",
+          "source": "estimate",
+          "note": "Wrap the arc continuously, laps 2\"+, fasten into every stud — this is the true curve former."
+        },
+        {
+          "item": "Base-coat mortar",
+          "spec": "Polymer-modified stucco base coat (or sanded thinset), 50 lb bag",
+          "qty": "1",
+          "unit": "bag",
+          "source": "estimate",
+          "note": "Screed to the true radius with a plywood template band-sawed from the SketchUp arc; two thin passes beat one thick."
+        },
+        {
+          "item": "Stucco finish coat",
+          "spec": "Smooth stucco finish coat, 1 bag/pail",
+          "qty": "1",
+          "unit": "bag",
+          "source": "estimate",
+          "note": "If the curve finishes as the smooth accent band (the guide's lean); narrow mosaic/picket tile is the named alternative — skip this if tile wins."
+        },
+        {
+          "item": "Louvered stainless vents",
+          "spec": "Stainless louvered island vents — SIZE TO THE COYOTE MANUAL'S SQUARE-INCH NUMBERS (LP compartments have explicit low-vent requirements)",
+          "qty": "~4 (measure)",
+          "unit": "each",
+          "source": "measure",
+          "note": "Toe-kick under the grill (LOW — propane sinks) + island ends. The manual is law — buy after the cutout/vent sheet is in hand."
+        },
+        {
+          "item": "LP leak detector",
+          "spec": "Plug-in or battery propane (LP) gas detector",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "Mounts LOW in the propane bay. If the grill ever converts to NG, add detection HIGH — detection flips at conversion."
+        },
+        {
+          "item": "Exterior silicone sealant",
+          "spec": "100% silicone, exterior-rated, 10 oz tubes",
+          "qty": "3",
+          "unit": "tubes",
+          "source": "estimate",
+          "note": "Seal every penetration cut BEFORE hanging: conduit, PEX, the drain-riser hole in the cabinet floor board, vent sleeves."
+        },
+        {
+          "item": "Fence standoff heat shield (conditional)",
+          "spec": "½\" cement board offcut + non-combustible standoffs",
+          "qty": "0–1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Only if the Coyote manual's rear clearance number is tight against the boarded back + 2\" fence gap — the guide's named cheap fix. Check the manual first; likely free from sheet offcuts."
+        }
+      ]
+    },
+    {
+      "phase": 4,
+      "items": [
+        {
+          "item": "Wood-look porcelain plank",
+          "spec": "RECTIFIED porcelain plank, light driftwood tone, ~48\" length class",
+          "qty": "~135 sq ft + 10–15% waste + 1 extra box",
+          "unit": "sq ft",
+          "source": "guide",
+          "note": "~135 sq ft faces is the guide figure — re-measure faces before ordering. Extra box = attic stock; dye lots disappear. Dry-lay the entire face first; door edges land on grout joints. ⚠ If you want one combined tile order, the backsplash pick (Phase 7) practically decides now."
+        },
+        {
+          "item": "Tile leveling clip system",
+          "spec": "Tuscan/Raimondi/MLT clips (1/16\" or match plank joint) + wedges",
+          "qty": "~400 clips + 100 wedges",
+          "unit": "kit",
+          "source": "estimate",
+          "note": "Non-negotiable on planks. Wedges reuse; clips are consumable — count from the dry-lay if you want it tighter."
+        },
+        {
+          "item": "Exterior thinset (cladding)",
+          "spec": "Polymer-modified exterior-rated thinset, 50 lb bags, white",
+          "qty": "5",
+          "unit": "bags",
+          "source": "estimate",
+          "note": "Back-butter EVERY plank + combed wall = double coverage, ~30 sq ft/bag effective over ~135 sq ft. Same pass beds the Schluter trim legs."
+        },
+        {
+          "item": "Epoxy grout (cladding)",
+          "spec": "100% epoxy grout (SpectraLOCK Pro class), color dead-matched to plank",
+          "qty": "2",
+          "unit": "full units",
+          "source": "estimate",
+          "note": "Joints read as reveals. Clean haze aggressively as you go — epoxy haze is forever. Rectified tight joints keep consumption low; confirm coverage chart against joint width."
+        },
+        {
+          "item": "Metal edge trim",
+          "spec": "Schluter Quadec or Rondec, height matched to plank thickness (~3/8\"), 8' 2½\" lengths, finish of your pick",
+          "qty": "measure (~5)",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "EVERY outside corner — never miter porcelain. Also the plank-stop trim line where the field meets the curved wall (D22). Measure vertical corner LF + curve termination."
+        },
+        {
+          "item": "Color-matched silicone",
+          "spec": "100% silicone matched to grout color (Latasil class), 10 oz",
+          "qty": "3",
+          "unit": "tubes",
+          "source": "estimate",
+          "note": "Movement joints: every change of plane, cladding-to-counter/appliance/trim. Silicone, not grout — law."
+        }
+      ]
+    },
+    {
+      "phase": 5,
+      "items": [
+        {
+          "item": "Aluminum door frame stock",
+          "spec": "1\"×1\" aluminum angle or 1\" thin-wall square tube, 8' lengths",
+          "qty": "measure (~4–6)",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "Frame = opening minus an even 1/8–3/16\" reveal; center rail on anything over ~24\". Take perimeter LF from actual door openings. Cut with the non-ferrous blade."
+        },
+        {
+          "item": "Aluminum gusset plates / corner brackets",
+          "spec": "Flat aluminum gussets or 90° corner brackets to suit 1\" stock",
+          "qty": "4 per door",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Corners joined with gussets + stainless machine screws + nylock nuts PLUS structural adhesive — bolt-and-bond, no welding."
+        },
+        {
+          "item": "Stainless machine screws + nylock nuts",
+          "spec": "#10-24 stainless machine screws assorted lengths + nylock nuts, small boxes",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Frame corners AND hinge mounting — machine screws + lock nuts into the frame, NEVER self-tappers, for connections carrying the door's whole life."
+        },
+        {
+          "item": "Structural adhesive",
+          "spec": "3M 5200 (cartridge) or 3M DP420 (dual cartridge + mixing nozzles)",
+          "qty": "1–2",
+          "unit": "cartridges",
+          "source": "guide",
+          "note": "Guide names both products. The bond + bolts make the torsion box."
+        },
+        {
+          "item": "GoBoard backer",
+          "spec": "GoBoard/Wedi foam backer, ½\" × 3'×5' sheets",
+          "qty": "measure (~2)",
+          "unit": "sheets",
+          "source": "measure",
+          "note": "NOT cement board — door weight kills hinges; foam bonds porcelain equally well. Count from door areas. Bond with thinset/adhesive AND screw with stainless self-tappers."
+        },
+        {
+          "item": "GoBoard sealant",
+          "spec": "Waterproof board sealant (GoBoard Pro Sealant class), 1 tube",
+          "qty": "1",
+          "unit": "tube",
+          "source": "estimate",
+          "note": "Waterproof the backer edges/seams per the JM install guide in the reference library."
+        },
+        {
+          "item": "Stainless self-tapping screws",
+          "spec": "#8 stainless self-tappers, ~¾\", small box",
+          "qty": "1",
+          "unit": "box",
+          "source": "estimate",
+          "note": "Backer to frame, alongside the adhesive bond."
+        },
+        {
+          "item": "Concealed clamp-on hinges (⚠ open decision)",
+          "spec": "Concealed hinges made for aluminum-frame cabinet doors — clamp-on type, NO 35mm cup bore, 3-way adjustable (search 'aluminum frame door concealed hinge' / glass-cabinet hardware)",
+          "qty": "2 per door",
+          "unit": "each",
+          "source": "measure",
+          "note": "⚠ Decide BEFORE tiling door faces. Stainless piano hinge (cut to door height) is the sag-proof fallback if clamp-ons don't suit the frame profile. Phase 1 backing supports either."
+        },
+        {
+          "item": "Stainless handles",
+          "spec": "Stainless bar/pull handles, through-bolted",
+          "qty": "1 per door + drawer",
+          "unit": "each",
+          "source": "measure",
+          "note": "Diamond-drill through tile into the frame, sleeve holes with silicone, through-bolt."
+        },
+        {
+          "item": "Outdoor door catches",
+          "spec": "Outdoor-rated magnetic or roller catch",
+          "qty": "1 per door",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Hang after cladding; dial reveals even."
+        },
+        {
+          "item": "Drawer box panel stock",
+          "spec": ".050–.063\" aluminum sheet OR 3–4mm ACP/Dibond panels",
+          "qty": "measure",
+          "unit": "sq ft",
+          "source": "measure",
+          "note": "From the drawer cut list: each box = opening − slide clearance (usually ½\" per side). Build the tallest drawer first as the pattern."
+        },
+        {
+          "item": "Aluminum angle + flat bar (drawers)",
+          "spec": "1\"×1\" aluminum angle (corners) + aluminum flat bar (slide-height rails), 8' lengths",
+          "qty": "measure",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "Angle is the frame, panel is the skin; flat-bar rails give solid bite for slide screws and stiffen the wall in one move."
+        },
+        {
+          "item": "Stainless pop rivets",
+          "spec": "1/8\" stainless pop rivets, 250-count",
+          "qty": "1",
+          "unit": "box",
+          "source": "estimate",
+          "note": "Every corner joint. $25 rivet gun is on the tool list. Stainless (not aluminum) stays the rule near the firebox surround."
+        },
+        {
+          "item": "Perforated aluminum sheet",
+          "spec": "Perforated aluminum, ~.050\", cut to drawer bottoms",
+          "qty": "measure",
+          "unit": "sq ft",
+          "source": "measure",
+          "note": "Bottoms drain instead of pooling."
+        },
+        {
+          "item": "Aluminum U-channel edge cap",
+          "spec": "U-channel sized to panel thickness (.050–4mm)",
+          "qty": "measure",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "Top rim of each box — no razor edges, looks finished."
+        },
+        {
+          "item": "Stainless full-extension drawer slides",
+          "spec": "Stainless full-extension ball-bearing slides, length to bay depth (typ. 20–22\")",
+          "qty": "1 pair per drawer",
+          "unit": "pairs",
+          "source": "measure",
+          "note": "Boxes land under 10 lb empty — standard slides carry them. Mount to flat-bar rails and to Phase 1 blocking/angle on the cabinet side; size box to the slide spec's clearance."
+        },
+        {
+          "item": "Stainless through-bolts + fender washers (drawer faces)",
+          "spec": "¼\" stainless bolts + fender washers + nylocks, assorted",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Faces are tiled ½\" cement-board panels (Phase 3 offcuts) through-bolted from inside with SLOTTED holes for alignment."
+        },
+        {
+          "item": "Cabinet interior paint",
+          "spec": "Light-colored elastomeric/masonry paint (guide-specified type), 1 gal",
+          "qty": "1",
+          "unit": "gal",
+          "source": "estimate",
+          "note": "Over interior cement board so you can see into the bays. Quantity is my estimate."
+        },
+        {
+          "item": "Shelf material",
+          "spec": "Stainless wire shelving or marine HDPE sheet, cut to bays",
+          "qty": "measure",
+          "unit": "sq ft",
+          "source": "measure",
+          "note": "Sits on the Phase 1 blocking/ledgers. Both picks drain — that's why they won."
+        }
+      ]
+    },
+    {
+      "phase": 6,
+      "items": [
+        {
+          "item": "Granite countertop (remnant, fabricated)",
+          "spec": "LIGHT granite (Alaska White / Kashmir White / Colonial White / Bianco Antico class), 3cm (1¼\" nominal / 1-3/16\" actual), LEATHERED — two pieces, seam at the corner",
+          "qty": "~40",
+          "unit": "sq ft",
+          "source": "guide",
+          "note": "Remnants $10–18/sq ft + $600–1,000 fabrication → $1,000–1,800 all-in. Dark stone hits 150–170°F — off the table. Seam away from the sink; match 3cm across both pieces; cutouts need meat — constrains which remnants work. Give fabricator: sink template, grill cutout (SL30 25½×20½ / SL36 32½×20½ — decided by now), Big Joe A–R chart opening, seam location. ⚠ Backsplash tile must be chosen before templating (rear-overhang detail)."
+        },
+        {
+          "item": "Granite sealer",
+          "spec": "Penetrating stone sealer, ~$25 bottle",
+          "qty": "1",
+          "unit": "bottle",
+          "source": "guide",
+          "note": "Seal at install, then twice a year, 20 minutes — calendar it."
+        },
+        {
+          "item": "Silicone (setting beds)",
+          "spec": "100% silicone, clear or color-matched, 10 oz",
+          "qty": "2",
+          "unit": "tubes",
+          "source": "estimate",
+          "note": "Counters set in silicone beds; fabricator epoxies + color-matches the seam and often supplies setting silicone — confirm before buying."
+        },
+        {
+          "item": "Thinset/mortar for kamado bearing",
+          "spec": "Polymer-modified thinset (Phase 4 leftover works)",
+          "qty": "leftover or 1",
+          "unit": "bag",
+          "source": "estimate",
+          "note": "Mortar-bed the kamado feet zone and the throat-band 'little shelf' so the stone is fully bedded and never spans air (Step 6.3)."
+        }
+      ]
+    },
+    {
+      "phase": 7,
+      "items": [
+        {
+          "item": "Smooth large-format porcelain (heat zone)",
+          "spec": "Smooth light porcelain, 24\"+ faces, minimal grout lines",
+          "qty": "~17 sq ft + waste (~12 grill + ~5 kamado)",
+          "unit": "sq ft",
+          "source": "guide",
+          "note": "Grill zone ~4' + kamado corner ~3' of the 18\" band. Grout behind a grill is a grease trap — big smooth tile is the wipeable substitute for the stainless panel that was ruled out. Kamado corner may alternatively take the feature tile (soot-on-grout tradeoff, guide's words)."
+        },
+        {
+          "item": "Feature tile (⚠ open decision)",
+          "spec": "Your pick of the four comps — Sea Glass Sage is the standing recommendation; porcelain or glass ONLY behind cook surfaces",
+          "qty": "~20 sq ft (incl. the guide's +20% picket waste) + 1 extra box",
+          "unit": "sq ft",
+          "source": "guide",
+          "note": "Sink wall + runs, ~11' of the 18\" band. Picket shapes waste more. Extra box = attic stock. ⚠ Deadline was Phase 6 templating — must be locked by now."
+        },
+        {
+          "item": "Epoxy grout (backsplash)",
+          "spec": "100% epoxy grout, ONE SHADE DARKER than instinct",
+          "qty": "1",
+          "unit": "full unit",
+          "source": "estimate",
+          "note": "Pale grout behind a grill grays in a season anyway — guide's rule."
+        },
+        {
+          "item": "Metal edge trim (transitions)",
+          "spec": "Schluter-type profile matched to tile thickness, 8' 2½\" lengths",
+          "qty": "measure (~2–3)",
+          "unit": "lengths",
+          "source": "measure",
+          "note": "Smooth-to-feature transitions and any change of plane/material — metal trim + silicone, never a grouted butt joint. Measure transition LF."
+        },
+        {
+          "item": "Thinset (backsplash)",
+          "spec": "Polymer-modified exterior thinset (Phase 4 leftover works)",
+          "qty": "leftover or 1",
+          "unit": "bag",
+          "source": "estimate",
+          "note": "Same one-material-discipline system as the cladding."
+        },
+        {
+          "item": "Color-matched silicone (counter joint)",
+          "spec": "100% silicone matched to grout, 10 oz",
+          "qty": "2",
+          "unit": "tubes",
+          "source": "estimate",
+          "note": "Counter-to-backsplash joint gets silicone, NEVER grout — it's a movement joint."
+        }
+      ]
+    },
+    {
+      "phase": 8,
+      "items": [
+        {
+          "item": "Coyote SL grill (⚠ open decision ×2)",
+          "spec": "C3SL30 (cutout 25½\"W × 20½\"D × 10¼\"H, ~$3,100 LP) or C3SL36 (32½\"W × 20½\"D × 10¼\"H, ~$3,500–3,700) — LP or NG, ships fuel-specific",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "Size was decided back at Phase 1 framing; fuel: tie-in a year+ out → order LP, cook on the tank, budget the Coyote LP→NG conversion kit + orifice/regulator swap (~$60–100) for tie-in day. Order early enough that the manual is in hand for Phase 3 vent sizing — the manual is law. Flange bears on counter, sealed per instructions."
+        },
+        {
+          "item": "Kamado Joe Big Joe III (standalone)",
+          "spec": "Big Joe Series III grill head, no cart",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "~$2,200–2,700. Assemble IN PLACE — it does not fit through openings after the fact; 400+ lb ceramic, two-strong-people minimum, rent/borrow a shoulder or appliance dolly."
+        },
+        {
+          "item": "Kamado Joe ceramic feet",
+          "spec": "KJ ceramic feet for built-in installs",
+          "qty": "4",
+          "unit": "each",
+          "source": "guide",
+          "note": "2 front, 2 back, spaced so it can't rock when the dome swings. Required in built-ins — they create the under-grill airflow; never set the ceramic base flat on the deck. kamadojoe.com parts."
+        },
+        {
+          "item": "SMOBOT — Kamado Joe version",
+          "spec": "SMOBOT KJ version, $349, micro-USB powered",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "KJ version ONLY — the standard BGE daisy-wheel kit does NOT fit the cast-aluminum Kontrol Tower. Routes to the cradle outlet."
+        },
+        {
+          "item": "Looftlighter",
+          "spec": "Looftlighter electric fire starter, ~$80",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "Covers the manual-ignition gap; stages at the cradle outlet with the SMOBOT."
+        },
+        {
+          "item": "Fridge",
+          "spec": "Velieta 24\" front-venting built-in/freestanding, compressor, adjustable feet, ~$300–450",
+          "qty": "1",
+          "unit": "each",
+          "source": "guide",
+          "note": "ORDER EARLY — the Phase 1 bay gets framed to its actual cut sheet on arrival. Front grille completely unobstructed at install; cord through the grommeted pass-through to the adjacent-bay outlet."
+        },
+        {
+          "item": "Sink + faucet + cover",
+          "spec": "Stainless bar sink + cold-only faucet + permanently attachable sink cover",
+          "qty": "1",
+          "unit": "set",
+          "source": "guide",
+          "note": "$120–250 class. Buy early enough to hand the fabricator the sink template at Phase 6. The cover satisfies the sewered-outdoor-sink rain rule for tie-in day. Set in silicone per template."
+        },
+        {
+          "item": "GFCI receptacles",
+          "spec": "20A, weather-resistant (WR) + tamper-resistant, self-testing GFCI",
+          "qty": "2",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Head of each circuit per the guide's 'GFCI everything — at the head of each circuit or breaker-level.' If you go breaker-level GFCI instead, swap these for 2 WR duplexes and 2 GFCI breakers. Test every GFCI."
+        },
+        {
+          "item": "WR receptacles (downstream)",
+          "spec": "20A WR/TR duplex receptacles",
+          "qty": "2",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Downstream outlets on circuit 2 (kamado + sink convenience), protected by the head GFCI."
+        },
+        {
+          "item": "In-use covers",
+          "spec": "Weatherproof in-use ('bubble') covers, single-gang, sized to box + plug",
+          "qty": "4",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Guide requires in-use covers on everything; count matches the four outlet locations. Covers stay closed over cords at the grill outlet."
+        },
+        {
+          "item": "Circuit labels",
+          "spec": "Preprinted circuit label kit or label-maker tape",
+          "qty": "1",
+          "unit": "kit",
+          "source": "estimate",
+          "note": "Label the circuits at trim-out — guide's electrical-trim step."
+        },
+        {
+          "item": "Propane tank",
+          "spec": "20 lb LP cylinder, filled",
+          "qty": "1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Sits on the pavers in the open, unfinished under-grill bay. Skip if you already own one. (Only if the grill ordered LP.)"
+        },
+        {
+          "item": "Leak-test solution",
+          "spec": "Spray bottle + dish soap, or commercial gas leak detector solution",
+          "qty": "1",
+          "unit": "bottle",
+          "source": "estimate",
+          "note": "Leak-test EVERY propane fitting with soapy water — guide's safety language, verbatim requirement."
+        },
+        {
+          "item": "Air admittance valve (conditional)",
+          "spec": "1½\" AAV + adapter to the trap arm",
+          "qty": "0–1",
+          "unit": "each",
+          "source": "estimate",
+          "note": "Guide: 'AAV under the counter if that's your vent plan' — conditional on the venting approach at drain trim/tie-in."
+        },
+        {
+          "item": "Faucet supply connection",
+          "spec": "½\" PEX × faucet thread adapter or ½\" quarter-turn stop + braided connector",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Hooks the cold faucet to the Phase −1 PEX run; match your PEX connection system."
+        },
+        {
+          "item": "Steel wool + exterior sealant",
+          "spec": "Coarse steel wool pad + exterior sealant tube",
+          "qty": "1",
+          "unit": "set",
+          "source": "estimate",
+          "note": "Seal the fridge cord pass-through — 'pest highway otherwise.' Silicone leftovers cover the rest of the punch-list change-of-plane joints."
+        }
+      ]
+    }
+  ],
+  "assumptions": [
+    "Pipe is sold in 10' sticks: the guide's 2\" ABS drain run and riser fit one stick; the 18–24\" gas sleeve and spare chase both come from one 2\" Sch 40 PVC stick. Guide allows 3\" PVC for the gas sleeve ('luxurious clearance') — I specced 2\" since the guide confirms 2\" ID passes ¾–1\" CSST with fittings.",
+    "Drain elbow: one long-sweep 90 is the primary buy; the two-45s alternative is noted on the same line rather than double-bought. Never a tight vent elbow, per the guide.",
+    "ABS over PVC for the drain per the guide's 'San Diego is traditionally ABS territory' — the owner must still match (or transition-cement) at tie-in day.",
+    "Sleeve/chase caps specced as dry-fit/taped so they come off for the future pull; the guide says only 'cap both ends.' Drain caps glue on (riser cap gets cut to height at trim-out).",
+    "P-trap, tailpiece, trap adapter, jug and bulkhead are bought in Phase −1 because Step 6 says to hard-pipe the trap now; bulkhead size is my call — the guide gives no dimension.",
+    "PT 2×4 length assumed 8' (guide only gives the 8–10 board count); take a cut list from the actual footprint before buying.",
+    "Tapcon spec (¼\" × 3¼\", ~25 count) derived from 1½\" PT + ≥1\" paver embedment and 'every few feet' over ~60 LF of sill; the guide names no size or count.",
+    "Sill-seal roll count (2 × 50') assumes ~60–100 LF of sill runs; return the surplus.",
+    "Electrical conduit assumed ¾\" Sch 40 with 12 AWG THWN-2 for the two 20A circuits; the guide states neither trade size nor wire gauge. Offset/coupling size must match the existing stubs — measure before buying.",
+    "Box count (4 outlets + 1 j-box) and in-use cover count (4) are derived from the guide's four named outlet locations plus the fridge-cavity splice hub.",
+    "GFCI plan assumed device-level: one GFCI at the head of each circuit + 2 protected WR duplexes downstream. The guide's alternative (breaker-level GFCI) changes this to 2 GFCI breakers + 4 WR duplexes.",
+    "Flagged, not fixed: #8 × ½\" TEK math — the guide's single 500-count box vs ~4 screws × 150 cut studs = ~600. Kept the guide's 1 box verbatim with a buy-a-second-if-cutting-all-fifty note.",
+    "Flagged, not fixed: Rockwool R-15 — the Phase 3 materials list says buy 1 pack now ('grill bay + fridge bay + sink back') while Step 3.4 defers the grill-bay-adjacent batt to an if-needed retrofit. Listed 1 pack per the materials list with the conflict noted for owner review.",
+    "Blocking, ledgers, boxed members, and the doubled-rail kamado grid are cut from the ~50 stud / ~14 track sticks — no separate steel purchase line.",
+    "Hardware-cloth roll (36\" × 25') sized from ~33\" cavity height and ~18 LF back minus the ~4' grill bay; verify against the real back before buying. Its stainless screw/washer attachment hardware is my addition — the guide says only 'staples/screws on from the front.'",
+    "Vent quantity (~4) is a placeholder — the guide's rule is to size vent area to the Coyote manual's square-inch numbers, so the real buy waits for the manual.",
+    "Cladding consumables derived from the guide's ~135 sq ft: 5 bags thinset (back-butter doubles coverage), ~400 leveling clips, 2 epoxy grout units, 3 silicone tubes. All are stocking estimates, not guide figures.",
+    "Door/drawer quantities (angle stock, GoBoard sheets, hinges at 2/door, handles, catches, slides, panel stock) depend on the final door/drawer count and opening sizes, which the guide never enumerates — all marked measure.",
+    "Structural adhesive marked source:guide because the guide names the exact products (3M 5200 / DP420); cartridge count is mine.",
+    "Cabinet paint type (light elastomeric/masonry) is the guide's; the 1-gal quantity is mine, so it is marked estimate.",
+    "Phase 8 big-ticket items carry order-early notes that are mine: the grill manual must exist before Phase 3 vent sizing and Phase 1 bay framing; the fridge cut sheet before its Phase 1 bay; the sink template before Phase 6 templating. The guide implies each but files them under Phase 8 purchasing.",
+    "Propane tank (20 lb) included on the assumption the owner doesn't already own one, and only applies if the open LP-vs-NG decision lands LP.",
+    "Fence standoff heat shield and stucco finish coat are conditional lines, kept because the guide names them as contingent buys (tight rear clearance; smooth-stucco curve finish).",
+    "Consumable counts throughout (mesh tape rolls, silicone tubes, cement cans, sand bags, rivet boxes) are shopping-cart stocking estimates sized to the described work, not guide numbers.",
+    "Tools are excluded — the guide keeps its own tool list (own/buy/rent) and this list is materials only. The pull-string spool, Sharpie labeling, and plywood screed template ride on existing tool-list items or scrap."
+  ]
+}

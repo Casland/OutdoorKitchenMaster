@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520" font-family="Arial, Helvetica, sans-serif">
+<title>Track splice and outside corner, plan view</title>
+<text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C2C2A">Track connections — plan view from above</text>
+<text x="340" y="46" text-anchor="middle" font-size="12" fill="#5F5E5A">(a) straight splice with nested sleeve · (b) outside corner with boxed corner studs</text>
+
+<!-- (a) Straight splice -->
+<text x="70" y="86" font-size="13" font-weight="bold" fill="#2C2C2A">(a) Straight splice</text>
+<rect x="70" y="100" width="200" height="58" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<rect x="290" y="100" width="200" height="58" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<rect x="220" y="106" width="120" height="46" fill="#ECEAE4" stroke="#444441" stroke-width="1" stroke-dasharray="5 3"/>
+<line x1="270" y1="100" x2="270" y2="158" stroke="#A32D2D" stroke-width="1" stroke-dasharray="3 2"/>
+<line x1="290" y1="100" x2="290" y2="158" stroke="#A32D2D" stroke-width="1" stroke-dasharray="3 2"/>
+<circle cx="240" cy="104" r="3" fill="#534AB7"/><circle cx="258" cy="154" r="3" fill="#534AB7"/>
+<circle cx="240" cy="154" r="3" fill="#534AB7"/><circle cx="258" cy="104" r="3" fill="#534AB7"/>
+<circle cx="304" cy="104" r="3" fill="#534AB7"/><circle cx="322" cy="154" r="3" fill="#534AB7"/>
+<circle cx="304" cy="154" r="3" fill="#534AB7"/><circle cx="322" cy="104" r="3" fill="#534AB7"/>
+<line x1="340" y1="118" x2="530" y2="110" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="536" y="100" font-size="13" font-weight="bold" fill="#2C2C2A">Nested sleeve</text>
+<text x="536" y="116" font-size="11" fill="#5F5E5A">8–12" of track slid inside</text>
+<text x="536" y="130" font-size="11" fill="#5F5E5A">both pieces, spanning</text>
+<text x="536" y="144" font-size="11" fill="#5F5E5A">the butt joint</text>
+<text x="536" y="166" font-size="11" fill="#534AB7">● #8 TEK through both</text>
+<text x="548" y="180" font-size="11" fill="#534AB7">flanges, 4+ per side</text>
+<text x="70" y="182" font-size="11" fill="#A32D2D">red dashes = butt joint (1/8" gap fine)</text>
+
+<!-- (b) Outside corner -->
+<text x="70" y="232" font-size="13" font-weight="bold" fill="#2C2C2A">(b) Outside corner</text>
+
+<!-- Wall A horizontal band: y 300-360, x 90-430; Wall B vertical: x 370-430, y 250 down... build L -->
+<!-- outside faces: bottom y=360, right x=430; corner at (430,360) -->
+<rect x="90" y="300" width="340" height="60" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<rect x="370" y="250" width="60" height="110" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<line x1="370" y1="300" x2="370" y2="360" stroke="#444441" stroke-width="0" />
+<!-- miter line -->
+<line x1="370" y1="300" x2="430" y2="360" stroke="#A32D2D" stroke-width="1.25" stroke-dasharray="4 2"/>
+<!-- track flange lines -->
+<line x1="90" y1="304" x2="374" y2="304" stroke="#444441" stroke-width="0.75"/>
+<line x1="90" y1="356" x2="426" y2="356" stroke="#444441" stroke-width="0.75"/>
+<line x1="374" y1="250" x2="374" y2="302" stroke="#444441" stroke-width="0.75"/>
+<line x1="426" y1="250" x2="426" y2="354" stroke="#444441" stroke-width="0.75"/>
+
+<!-- Boxed corner studs: two C profiles forming an L at the corner interior -->
+<path d="M 372 306 L 372 352 L 418 352 L 418 344 L 380 344 L 380 306 Z" fill="#D9D6CC" stroke="#444441" stroke-width="1"/>
+<path d="M 386 306 L 386 338 L 418 338 L 418 330 L 394 330 L 394 306 Z" fill="#D9D6CC" stroke="#444441" stroke-width="1"/>
+
+<!-- screws at corner -->
+<circle cx="376" cy="330" r="3" fill="#534AB7"/>
+<circle cx="400" cy="348" r="3" fill="#534AB7"/>
+<circle cx="422" cy="320" r="3" fill="#534AB7"/>
+<circle cx="390" cy="308" r="3" fill="#534AB7"/>
+
+<!-- regular studs along walls -->
+<rect x="140" y="306" width="8" height="48" fill="#D9D6CC" stroke="#444441" stroke-width="0.75"/>
+<rect x="240" y="306" width="8" height="48" fill="#D9D6CC" stroke="#444441" stroke-width="0.75"/>
+<rect x="376" y="256" width="48" height="8" fill="#D9D6CC" stroke="#444441" stroke-width="0.75"/>
+<text x="144" y="296" font-size="10" fill="#5F5E5A" text-anchor="middle">16" o.c.</text>
+
+<!-- cladding faces indication -->
+<line x1="90" y1="366" x2="430" y2="366" stroke="#8A5F2A" stroke-width="3"/>
+<line x1="436" y1="250" x2="436" y2="366" stroke="#8A5F2A" stroke-width="3"/>
+
+<!-- labels -->
+<line x1="398" y1="332" x2="520" y2="290" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="526" y="278" font-size="13" font-weight="bold" fill="#2C2C2A">Boxed corner studs</text>
+<text x="526" y="294" font-size="11" fill="#5F5E5A">two studs screwed as an L:</text>
+<text x="526" y="308" font-size="11" fill="#5F5E5A">a screw edge for the board</text>
+<text x="526" y="322" font-size="11" fill="#5F5E5A">on BOTH outside faces</text>
+
+<line x1="405" y1="335" x2="520" y2="360" stroke="#888780" stroke-width="0" />
+<line x1="415" y1="345" x2="520" y2="366" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="526" y="356" font-size="13" font-weight="bold" fill="#2C2C2A">Mitered track webs</text>
+<text x="526" y="372" font-size="11" fill="#5F5E5A">cut flanges at 45, lap the</text>
+<text x="526" y="386" font-size="11" fill="#5F5E5A">webs, screw the overlap;</text>
+<text x="526" y="400" font-size="11" fill="#5F5E5A">square before driving</text>
+
+<line x1="433" y1="366" x2="520" y2="430" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="526" y="424" font-size="13" font-weight="bold" fill="#8A5F2A">Cladding faces</text>
+<text x="526" y="440" font-size="11" fill="#5F5E5A">corner gets metal edge</text>
+<text x="526" y="454" font-size="11" fill="#5F5E5A">trim — never miter porcelain</text>
+
+<text x="70" y="392" font-size="11" fill="#5F5E5A">Clamp before you drive — locking C-clamp pliers hold</text>
+<text x="70" y="406" font-size="11" fill="#5F5E5A">the layers so the metal can't walk. Check square with a</text>
+<text x="70" y="420" font-size="11" fill="#5F5E5A">framing square, then 4 screws minimum at the corner.</text>
+<text x="70" y="446" font-size="11" fill="#5F5E5A">Spray every cut edge with cold-galv before assembly —</text>
+<text x="70" y="460" font-size="11" fill="#5F5E5A">the miter cuts are raw steel and this is outdoors.</text>
+
+<text x="70" y="498" font-size="11" fill="#534AB7">● = #8 x 1/2" wafer-head TEK screw</text>
+</svg>

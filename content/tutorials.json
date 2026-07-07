@@ -1,0 +1,255 @@
+{
+  "$comment": "Technique videos, each verified to exist via YouTube oEmbed at build time of this list. phase + (step OR section slug) places a video on its station; both empty = phase-general (shown in pre-flight). To add one: fill technique/phase/step-or-section/title/channel/videoId/note. Rebuild after editing. See CONTENT.md.",
+  "videos": [
+    {
+      "technique": "Cutting steel studs with aviation snips (score-and-snap)",
+      "phase": 1,
+      "step": "1.1",
+      "section": "",
+      "title": "How To Cut Steel Studs Fast With Snips",
+      "channel": "Built Tough Tool Talk",
+      "videoId": "CKcbBCLbpFY",
+      "note": "The flange-flange-web snip sequence that makes fast, clean cuts without power tools."
+    },
+    {
+      "technique": "Cutting steel studs with a carbide-blade miter saw",
+      "phase": 1,
+      "step": "1.1",
+      "section": "",
+      "title": "EASILY cut STEEL with a MITER SAW",
+      "channel": "Gudde Co.",
+      "videoId": "mjMZhgIykts",
+      "note": "Blade choice, clamping, and feed rate for burr-free repetitive steel cuts on a miter saw."
+    },
+    {
+      "technique": "Assembling a stud-and-track wall (layout, insert, square)",
+      "phase": 1,
+      "step": "1.2",
+      "section": "",
+      "title": "Quick Metal Stud Framing Tutorial",
+      "channel": "Construction Kronies",
+      "videoId": "LB_FqSi440E",
+      "note": "The core track-then-stud assembly workflow, seen once before you frame the first island wall."
+    },
+    {
+      "technique": "Metal-stud outside corners and intersections",
+      "phase": 1,
+      "step": "1.2",
+      "section": "",
+      "title": "Master Metal Stud Framing & Drywall All Types Of Corners Lesson",
+      "channel": "Construction Kronies",
+      "videoId": "qwcD4aJFl6E",
+      "note": "How pros build every corner type so the island's outside corners land solid and square."
+    },
+    {
+      "technique": "Driving TEK/self-drilling screws properly",
+      "phase": 1,
+      "step": "1.2",
+      "section": "",
+      "title": "Installing Self Drilling TEK Screws In Metal | Fasteners 101",
+      "channel": "Albany County Fasteners",
+      "videoId": "o_6Ou2MHdr8",
+      "note": "Drill (not impact), moderate RPM, inline pressure, and stopping before you strip the steel."
+    },
+    {
+      "technique": "Tapcon anchoring into masonry/pavers",
+      "phase": 0,
+      "step": "0.4",
+      "section": "",
+      "title": "Using Tapcon Anchors the RIGHT WAY!",
+      "channel": "How I Do Things Woodworking",
+      "videoId": "Xdj7g_BRfHw",
+      "note": "Hammer-drill bit sizing, hole cleaning, and torque feel so base-track anchors bite instead of spin."
+    },
+    {
+      "technique": "Solvent-welding PVC DWV (primer + cement)",
+      "phase": -1,
+      "step": "",
+      "section": "phase--1-intro",
+      "title": "How To Prime & Glue PVC Pipe The RIGHT WAY (Steps for a NO-LEAK Joint)",
+      "channel": "SimpleDIYProjects",
+      "videoId": "x4uKjHgg0oc",
+      "note": "Primer coverage, quarter-turn insertion, and hold time — the whole no-leak joint in one short pass."
+    },
+    {
+      "technique": "PEX crimp connections",
+      "phase": -1,
+      "step": "",
+      "section": "phase--1-intro",
+      "title": "How to Make PEX Crimp Connections",
+      "channel": "SupplyHouse",
+      "videoId": "M3RHwlu9g30",
+      "note": "Ring placement, square crimp, and the go/no-go gauge check for the sink supply stubs."
+    },
+    {
+      "technique": "Heat-bending PVC conduit: 90s, offsets, box offsets",
+      "phase": 2,
+      "step": "",
+      "section": "steps",
+      "title": "Heating and Bending PVC Conduit - BENDING 90s, OFFSETS, and BOX OFFSETS",
+      "channel": "Electrician U",
+      "videoId": "-soQvQ8Qc3s",
+      "note": "An electrician-teacher shows even heating and the exact offset bends the island's conduit runs need."
+    },
+    {
+      "technique": "Wiring a GFCI receptacle (line vs load)",
+      "phase": 8,
+      "step": "",
+      "section": "electrical-trim",
+      "title": "How to Wire a GFCI Outlet - What's Line vs Load? - Electrical Wiring 101",
+      "channel": "Top Homeowner",
+      "videoId": "Uop79H_iqoQ",
+      "note": "Line vs load terminals explained — the one mistake that silently defeats GFCI protection downstream. (Devices land at Phase 8 trim; wire is pulled in Phase 2.)"
+    },
+    {
+      "technique": "Scoring and snapping cement board",
+      "phase": 3,
+      "step": "",
+      "section": "steps",
+      "title": "How to Cut HardieBacker Cement Board (Clean, Easy Method) | Beginner's Guide to Score and Snap",
+      "channel": "DIY for Home and Life",
+      "videoId": "g77Q0mmuAvQ",
+      "note": "Dust-free score-and-snap with a straightedge and carbide scorer — no power tools required."
+    },
+    {
+      "technique": "Fastening cement board to steel studs (BBQ island)",
+      "phase": 3,
+      "step": "",
+      "section": "steps",
+      "title": "Bbq Islands Installing  Cement Board over steel studs",
+      "channel": "williebbqcoach",
+      "videoId": "bRYOHh7KqRA",
+      "note": "Exactly this build: hanging cement board on a steel-stud BBQ island, screw pattern included."
+    },
+    {
+      "technique": "Alkali-resistant mesh tape + thinset seams",
+      "phase": 3,
+      "step": "",
+      "section": "steps",
+      "title": "Taping Cement Board Joints-Step By Step Tutorial",
+      "channel": "Helpful DIY",
+      "videoId": "EMQ2lLmOnzk",
+      "note": "Embedding mesh tape in thinset and knifing it flat so seams disappear under tile instead of humping."
+    },
+    {
+      "technique": "Rolling RedGard liquid waterproofing membrane",
+      "phase": 3,
+      "step": "",
+      "section": "steps",
+      "title": "How To Waterproof Shower Walls ( RedGard )",
+      "channel": "StarrTile",
+      "videoId": "MxNkHgkV834",
+      "note": "Roller technique and coverage cues — pink means wet, solid dark red means ready for the next coat."
+    },
+    {
+      "technique": "Metal lath + scratch coat (curved stucco wall)",
+      "phase": 3,
+      "step": "",
+      "section": "step-35-the-curved-wall-faceted-board-true-radius",
+      "title": "Stucco scratch coat everything you need to know.",
+      "channel": "Kirk Giordano plastering Inc.",
+      "videoId": "suQM8-8CtiU",
+      "note": "A veteran plasterer's trowel pressure and scratching technique for the base coat over lath."
+    },
+    {
+      "technique": "Back-buttering large-format tile",
+      "phase": 4,
+      "step": "",
+      "section": "steps",
+      "title": "The Best Way to Back Butter a TILE.   TileCoach Episode 32",
+      "channel": "TileCoach",
+      "videoId": "Wzesvejp5sQ",
+      "note": "The flat-skim back-butter that gets full coverage under porcelain planks in seconds per tile."
+    },
+    {
+      "technique": "Tile leveling clip system on walls",
+      "phase": 4,
+      "step": "",
+      "section": "steps",
+      "title": "How to use a Tile Leveling System for Walls",
+      "channel": "Landberg Tile TV",
+      "videoId": "rWmQ3PXe-H4",
+      "note": "Clips-and-wedges on vertical surfaces — the lippage control that matters most on plank tile faces."
+    },
+    {
+      "technique": "Cutting porcelain planks on a wet saw",
+      "phase": 4,
+      "step": "",
+      "section": "steps",
+      "title": "How To Cut Tile With a Wet Saw - Ceramic, Porcelain, Stone, Glass & More",
+      "channel": "The Tile Shop",
+      "videoId": "2-iLsF0nsvA",
+      "note": "Feed rate, support, and water management for chip-free wet-saw cuts in dense porcelain."
+    },
+    {
+      "technique": "Angle-grinder cuts and notches in porcelain",
+      "phase": 4,
+      "step": "",
+      "section": "steps",
+      "title": "How To Cut Porcelain Tiles by Hand with Grinder without Chipping. Testing Diamond Blades 4 Tiling",
+      "channel": "InvestorTheory",
+      "videoId": "x7hNjUv0ZWo",
+      "note": "Grinder technique and blade comparison for the L-notches and cutouts a snap cutter can't make."
+    },
+    {
+      "technique": "Epoxy grout application and cleanup",
+      "phase": 7,
+      "step": "",
+      "section": "rules",
+      "title": "Install & Clean Epoxy Grout Like a Pro: Kerapoxy CQ Application & Cleanup Guide",
+      "channel": "MAPEIUSA",
+      "videoId": "Ks4kDjbpZlY",
+      "note": "Manufacturer's own float-and-wash sequence — timing the cleanup is the whole game with epoxy."
+    },
+    {
+      "technique": "Metal edge trim (Schluter-type profile) installation",
+      "phase": 4,
+      "step": "",
+      "section": "steps",
+      "title": "How to install tile edge trim on walls: Schluter®-QUADEC profile",
+      "channel": "Schluter-Systems North America / Amérique du Nord",
+      "videoId": "MXu0MJTlagw",
+      "note": "Official Schluter demo: bedding the profile in thinset so tile edges finish clean at outside corners."
+    },
+    {
+      "technique": "Silicone movement joints in tile",
+      "phase": 7,
+      "step": "",
+      "section": "rules",
+      "title": "DIY Tutorial: Prevent Tile Cracks with Silicone Joint Installation",
+      "channel": "Tile the World",
+      "videoId": "xWlMDfvYwVc",
+      "note": "Where and how to substitute silicone for grout at changes of plane — essential outdoors with thermal movement."
+    },
+    {
+      "technique": "Pop-riveting aluminum",
+      "phase": 5,
+      "step": "",
+      "section": "drawers-diy-riveted-aluminum-locked-custom-sizes",
+      "title": "A Step-By-Step Guide on How to Use POP Rivets | Fasteners 101",
+      "channel": "Albany County Fasteners",
+      "videoId": "1G8lGECOe1U",
+      "note": "Rivet sizing, nozzle match, and the squeeze-to-snap feel for joining aluminum door and panel parts."
+    },
+    {
+      "technique": "Propane leak test with soapy water",
+      "phase": 8,
+      "step": "",
+      "section": "grill",
+      "title": "How to Check for Gas Line Leaks on a Gas Grill | The Soap Bubble Test | BBQGuys.com",
+      "channel": "BBQGuys",
+      "videoId": "7UPQhuvdeL8",
+      "note": "The soap-bubble test on grill fittings, from a grill retailer — bubbles at any joint mean stop and refit."
+    },
+    {
+      "technique": "Kamado built-in / table installation (ceramic feet, clearances)",
+      "phase": 8,
+      "step": "",
+      "section": "kamado-big-joe",
+      "title": "Installing my Kamado Joe into a table for the LAST TIME?  Kamado table install tips & tricks",
+      "channel": "Smoking Dad BBQ",
+      "videoId": "dLsKPBpjMcQ",
+      "note": "Setting a kamado into a built-in bay: lifting safely, ceramic feet, and clearance lessons learned."
+    }
+  ]
+}

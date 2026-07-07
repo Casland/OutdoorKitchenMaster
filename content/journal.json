@@ -1,0 +1,10 @@
+{
+  "$comment": "Build journal. Append new entries at the TOP of the array (newest first). Each entry: date (YYYY-MM-DD), note (plain text or simple markdown), optional photo (filename inside content/journal/). Run npm run build after editing. See CONTENT.md.",
+  "entries": [
+    {
+      "date": "2026-07-04",
+      "note": "Site built from the planning docs. Nothing physical yet — first real entry should be pulling pavers at the seam and laying the three pipes.",
+      "photo": null
+    }
+  ]
+}

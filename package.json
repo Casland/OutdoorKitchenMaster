@@ -1,0 +1,19 @@
+{
+  "name": "outdoor-kitchen-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Static field-guide site for the San Diego outdoor kitchen build",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "dev": "node scripts/ingest.mjs && vite",
+    "build": "node scripts/ingest.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "marked": "12.0.2",
+    "playwright": "^1.61.1",
+    "vite": "^5.4.0",
+    "vite-plugin-singlefile": "^2.0.2"
+  }
+}

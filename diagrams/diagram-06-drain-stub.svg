@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="512" viewBox="0 0 680 512" font-family="Arial, Helvetica, sans-serif">
+<title>Drain stub geometry</title>
+<text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C2C2A">Drain start — seated high, section view (yard left, island right)</text>
+<text x="340" y="46" text-anchor="middle" font-size="12" fill="#5F5E5A">2" DWV directly beneath the pavers banks elevation for the tight fall budget; riser doubles as rodding access</text>
+
+<line x1="554" y1="204" x2="470" y2="86" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="80" y="76" font-size="13" font-weight="bold" fill="#2C2C2A">Riser capped 6–8" proud of pavers</text>
+<text x="80" y="92" font-size="11" fill="#5F5E5A">cut to height at trim-out; tall stubs survive construction. Pull the trap = rodding access to the whole buried run.</text>
+
+<rect x="360" y="120" width="250" height="150" fill="none" stroke="#888780" stroke-width="1" stroke-dasharray="6 4"/>
+<text x="478" y="140" font-size="11" fill="#5F5E5A" text-anchor="middle">sink cabinet bay</text>
+
+<line x1="380" y1="176" x2="610" y2="176" stroke="#0F6E56" stroke-width="1" stroke-dasharray="5 4"/>
+<text x="384" y="168" font-size="11" fill="#0F6E56">trap arm exits high (~18–20") = free fall budget</text>
+
+<rect x="360" y="270" width="250" height="30" fill="#B9D48B" stroke="#3B6D11" stroke-width="1"/>
+<text x="452" y="289" font-size="11" fill="#3B6D11" text-anchor="middle">PT sill + frame footprint</text>
+
+<rect x="60" y="300" width="560" height="34" fill="#C9C7BE" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="170" y1="300" x2="170" y2="334" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="280" y1="300" x2="280" y2="334" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="390" y1="300" x2="390" y2="334" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="500" y1="300" x2="500" y2="334" stroke="#5F5E5A" stroke-width="0.5"/>
+
+<rect x="360" y="300" width="200" height="34" fill="#E24B4A" opacity="0.14"/>
+
+<path d="M 100 344 L 520 338 Q 552 336 554 306 L 554 210" fill="none" stroke="#55534E" stroke-width="16" stroke-linecap="butt"/>
+<path d="M 100 344 L 520 338 Q 552 336 554 306 L 554 210" fill="none" stroke="#E8E6E0" stroke-width="11"/>
+
+<rect x="88" y="334" width="12" height="20" fill="#DDDACF" stroke="#55534E" stroke-width="1.25"/>
+<rect x="543" y="200" width="22" height="12" rx="2" fill="#DDDACF" stroke="#55534E" stroke-width="1.25"/>
+
+<line x1="360" y1="270" x2="540" y2="270" stroke="#4A5A61" stroke-width="2"/>
+<line x1="568" y1="270" x2="610" y2="270" stroke="#4A5A61" stroke-width="2"/>
+
+<line x1="300" y1="362" x2="180" y2="364" stroke="#185FA5" stroke-width="1.5"/>
+<polygon points="180,359 180,369 168,364" fill="#185FA5"/>
+<text x="246" y="382" font-size="11" fill="#185FA5" text-anchor="middle">slight fall toward yard</text>
+
+<path d="M 94 354 L 70 400 L 70 424" fill="none" stroke="#55534E" stroke-width="3" stroke-dasharray="6 5"/>
+
+<line x1="300" y1="332" x2="240" y2="212" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="80" y="192" font-size="13" font-weight="bold" fill="#2C2C2A">2" ABS/PVC DWV seated directly beneath pavers</text>
+<text x="80" y="208" font-size="11" fill="#5F5E5A">2" beats 3": smaller pipe = higher invert = more fall to spend</text>
+
+<line x1="96" y1="336" x2="120" y2="252" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="80" y="234" font-size="13" font-weight="bold" fill="#2C2C2A">Capped yard end at/below grade</text>
+<text x="80" y="250" font-size="11" fill="#5F5E5A">photo + tape-measure to the fence post</text>
+
+<text x="368" y="324" font-size="10" font-weight="bold" fill="#A32D2D">NO-DRILL ZONE over pipe</text>
+
+<line x1="548" y1="320" x2="616" y2="356" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="620" y="352" font-size="12" font-weight="bold" fill="#2C2C2A">Long-</text>
+<text x="620" y="366" font-size="12" font-weight="bold" fill="#2C2C2A">sweep 90</text>
+<text x="620" y="382" font-size="10" fill="#5F5E5A">or 2x45s;</text>
+<text x="620" y="394" font-size="10" fill="#5F5E5A">never a</text>
+<text x="620" y="406" font-size="10" fill="#5F5E5A">vent elbow</text>
+
+<text x="80" y="440" font-size="11" fill="#5F5E5A">Tie-in day: the dashed continuation drops to 12"+ cover just OUTSIDE the footprint, then 1/4" per ft to the cleanout.</text>
+<text x="80" y="458" font-size="11" fill="#5F5E5A">Interim: trap discharges to a sealed 5–7 gal jug with a bulkhead fitting inside the cabinet.</text>
+<text x="80" y="476" font-size="11" fill="#5F5E5A">Everything from the trap up lives above the cabinet floor. Cabinet floor board gets a sealed hole around the riser.</text>
+<text x="80" y="494" font-size="11" fill="#854F0B">Gas sleeve (not shown): straight 2–3" PVC chase in the same trench, ~12" offset, ending in the open propane bay. Both lines = no-drill zone.</text>
+</svg>

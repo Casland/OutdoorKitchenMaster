@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="520" viewBox="0 0 680 520" font-family="Arial, Helvetica, sans-serif">
+<title>Kamado cradle load path</title>
+<text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C2C2A">Big Joe cradle — load travels in pure compression</text>
+<text x="340" y="46" text-anchor="middle" font-size="12" fill="#5F5E5A">~400+ lb of ceramic: posts land directly under the bearing points and run uninterrupted to the base</text>
+
+<!-- Pavers -->
+<rect x="70" y="440" width="540" height="40" fill="#C9C7BE" stroke="#5F5E5A" stroke-width="0.75"/>
+
+<!-- Sill + track band -->
+<rect x="180" y="416" width="320" height="24" fill="#B9D48B" stroke="#3B6D11" stroke-width="1"/>
+<rect x="180" y="408" width="320" height="8" fill="#ECEAE4" stroke="#444441" stroke-width="1"/>
+
+<!-- Posts (doubled studs) -->
+<rect x="232" y="300" width="26" height="108" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<line x1="245" y1="300" x2="245" y2="408" stroke="#444441" stroke-width="0.75"/>
+<rect x="422" y="300" width="26" height="108" fill="#F4F2EC" stroke="#444441" stroke-width="1.5"/>
+<line x1="435" y1="300" x2="435" y2="408" stroke="#444441" stroke-width="0.75"/>
+
+<!-- Doubled rail / boxed track band -->
+<rect x="210" y="284" width="260" height="16" fill="#ECEAE4" stroke="#444441" stroke-width="1.5"/>
+<line x1="210" y1="292" x2="470" y2="292" stroke="#444441" stroke-width="0.75"/>
+
+<!-- Deck -->
+<rect x="204" y="276" width="272" height="8" fill="#C4CDD1" stroke="#4A5A61" stroke-width="0.75"/>
+
+<!-- Mortar pads + ceramic feet -->
+<rect x="262" y="270" width="42" height="6" fill="#D9CDB8" stroke="#8A5F2A" stroke-width="0.5"/>
+<rect x="376" y="270" width="42" height="6" fill="#D9CDB8" stroke="#8A5F2A" stroke-width="0.5"/>
+<rect x="272" y="252" width="22" height="18" fill="#F4F2EC" stroke="#444441" stroke-width="1.25"/>
+<rect x="386" y="252" width="22" height="18" fill="#F4F2EC" stroke="#444441" stroke-width="1.25"/>
+
+<!-- Kamado egg -->
+<ellipse cx="340" cy="155" rx="98" ry="100" fill="#E24B4A" stroke="#A32D2D" stroke-width="1.5"/>
+<ellipse cx="340" cy="120" rx="70" ry="30" fill="none" stroke="#A32D2D" stroke-width="1"/>
+<rect x="326" y="42" width="28" height="16" rx="3" fill="#444441"/>
+<text x="340" y="165" font-size="13" font-weight="bold" fill="#FCEBEB" text-anchor="middle">Big Joe</text>
+
+<!-- Counter on both sides with gap -->
+<rect x="70" y="220" width="150" height="14" fill="#ECEAE4" stroke="#8A5F2A" stroke-width="1.25"/>
+<rect x="460" y="220" width="150" height="14" fill="#ECEAE4" stroke="#8A5F2A" stroke-width="1.25"/>
+
+<!-- Load arrows -->
+<line x1="283" y1="256" x2="283" y2="430" stroke="#A32D2D" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="279,430 287,430 283,440" fill="#A32D2D"/>
+<line x1="397" y1="256" x2="397" y2="430" stroke="#A32D2D" stroke-width="2" stroke-dasharray="6 4"/>
+<polygon points="393,430 401,430 397,440" fill="#A32D2D"/>
+
+<!-- Labels left -->
+<line x1="272" y1="260" x2="150" y2="272" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="144" y="262" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">Ceramic feet — 4 required</text>
+<text x="144" y="278" font-size="11" fill="#5F5E5A" text-anchor="end">2 front + 2 back, spaced so the grill</text>
+<text x="144" y="292" font-size="11" fill="#5F5E5A" text-anchor="end">can't rock when the dome opens;</text>
+<text x="144" y="306" font-size="11" fill="#5F5E5A" text-anchor="end">they create required under-airflow</text>
+
+<line x1="240" y1="350" x2="150" y2="350" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="144" y="340" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">Posts under bearing points</text>
+<text x="144" y="356" font-size="11" fill="#5F5E5A" text-anchor="end">doubled/boxed studs; uninterrupted</text>
+<text x="144" y="370" font-size="11" fill="#5F5E5A" text-anchor="end">to base track — NEVER carried on a</text>
+<text x="144" y="384" font-size="11" fill="#5F5E5A" text-anchor="end">horizontal stud spanning an open bay</text>
+
+<line x1="204" y1="230" x2="150" y2="212" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="144" y="196" font-size="13" font-weight="bold" fill="#8A5F2A" text-anchor="end">Counter (granite)</text>
+<text x="144" y="212" font-size="11" fill="#5F5E5A" text-anchor="end">shelf sits BELOW counter height so</text>
+<text x="144" y="226" font-size="11" fill="#5F5E5A" text-anchor="end">the band + front latch stay reachable</text>
+
+<!-- Labels right -->
+<line x1="470" y1="292" x2="500" y2="310" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="506" y="304" font-size="13" font-weight="bold" fill="#2C2C2A">Doubled rail grid</text>
+<text x="506" y="320" font-size="11" fill="#5F5E5A">web-vertical or boxed track —</text>
+<text x="506" y="334" font-size="11" fill="#5F5E5A">never flat track on its weak axis</text>
+
+<line x1="476" y1="280" x2="500" y2="260" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="506" y="248" font-size="13" font-weight="bold" fill="#4A5A61">Continuous deck</text>
+<text x="506" y="264" font-size="11" fill="#5F5E5A">cement board over the grid; feet</text>
+<text x="506" y="278" font-size="11" fill="#5F5E5A">zones mortar-bedded, never on</text>
+<text x="506" y="292" font-size="11" fill="#5F5E5A">thin flanges</text>
+
+<line x1="397" y1="380" x2="500" y2="380" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="506" y="372" font-size="13" font-weight="bold" fill="#A32D2D">Load path</text>
+<text x="506" y="388" font-size="11" fill="#5F5E5A">feet, deck, rails, posts, track,</text>
+<text x="506" y="402" font-size="11" fill="#5F5E5A">PT sill, pavers — straight down</text>
+
+<text x="70" y="500" font-size="11" fill="#5F5E5A">Dimension the opening from the Kamado Joe A–R built-in chart (Ceramic Grill Store). Verify dome rear swing clears the curved wall,</text>
+<text x="70" y="516" font-size="11" fill="#5F5E5A">and keep the counter open in front of the grill — the front latch needs access. Assemble the Big Joe in place; it will not fit later.</text>
+</svg>

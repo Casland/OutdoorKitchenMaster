@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="530" viewBox="0 0 680 530" font-family="Arial, Helvetica, sans-serif">
+<title>Base and finish stack cross-section</title>
+<text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#2C2C2A">Base + finish stack — section through wall (front is left)</text>
+<text x="340" y="46" text-anchor="middle" font-size="12" fill="#5F5E5A">Track front flange flush with PT front face; finish stack drops past sill to weep screed. Scale ~1" = 26 px</text>
+
+<!-- Pavers -->
+<rect x="70" y="410" width="540" height="50" fill="#C9C7BE" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="180" y1="410" x2="180" y2="460" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="390" y1="410" x2="390" y2="460" stroke="#5F5E5A" stroke-width="0.5"/>
+<line x1="500" y1="410" x2="500" y2="460" stroke="#5F5E5A" stroke-width="0.5"/>
+
+<!-- Shims under PT -->
+<polygon points="238,410 276,410 276,397 238,401" fill="#FAC775" stroke="#854F0B" stroke-width="0.75"/>
+<polygon points="286,410 316,410 316,401 286,397" fill="#FAC775" stroke="#854F0B" stroke-width="0.75"/>
+<circle cx="281" cy="405" r="2.5" fill="#5F5E5A"/>
+<text x="281" y="426" font-size="10" fill="#5F5E5A" text-anchor="middle">PL Premium</text>
+
+<!-- PT 2x4 flat: 3.5in = 91px, front face x=227 -->
+<rect x="227" y="358" width="91" height="39" fill="#B9D48B" stroke="#3B6D11" stroke-width="1"/>
+
+<!-- Sill seal -->
+<rect x="227" y="352" width="100" height="6" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.75"/>
+
+<!-- Track: web + two legs, front leg flush with PT front -->
+<rect x="227" y="348" width="100" height="4" fill="#ECEAE4" stroke="#444441" stroke-width="1"/>
+<rect x="227" y="315" width="4" height="33" fill="#ECEAE4" stroke="#444441" stroke-width="1"/>
+<rect x="323" y="315" width="4" height="33" fill="#ECEAE4" stroke="#444441" stroke-width="1"/>
+
+<!-- Stud: full width of track interior, nested -->
+<rect x="231" y="95" width="92" height="253" fill="#F4F2EC" stroke="#444441" stroke-width="1.25"/>
+<line x1="231" y1="95" x2="231" y2="348" stroke="#444441" stroke-width="2"/>
+<line x1="323" y1="95" x2="323" y2="348" stroke="#444441" stroke-width="2"/>
+
+<!-- Finish stack, front face -->
+<rect x="214" y="105" width="13" height="290" fill="#C4CDD1" stroke="#4A5A61" stroke-width="0.75"/>
+<line x1="214" y1="105" x2="214" y2="395" stroke="#E24B4A" stroke-width="2"/>
+<rect x="209" y="105" width="5" height="288" fill="#888780"/>
+<rect x="200" y="105" width="9" height="286" fill="#EBD9B8" stroke="#8A5F2A" stroke-width="0.75"/>
+
+<!-- Weep screed at board bottom -->
+<path d="M 214 395 L 214 402 L 198 402 L 198 396" fill="none" stroke="#0F6E56" stroke-width="2"/>
+
+<!-- Fasteners -->
+<line x1="264" y1="362" x2="264" y2="440" stroke="#A32D2D" stroke-width="2.5" stroke-linecap="round"/>
+<polygon points="260,440 268,440 264,450" fill="#A32D2D"/>
+<line x1="252" y1="340" x2="252" y2="380" stroke="#534AB7" stroke-width="2" stroke-linecap="round"/>
+<polygon points="249,380 255,380 252,388" fill="#534AB7"/>
+<line x1="300" y1="340" x2="300" y2="380" stroke="#534AB7" stroke-width="2" stroke-linecap="round"/>
+<polygon points="297,380 303,380 300,388" fill="#534AB7"/>
+<line x1="205" y1="200" x2="238" y2="200" stroke="#0F6E56" stroke-width="2" stroke-linecap="round"/>
+<polygon points="238,197 238,203 246,200" fill="#0F6E56"/>
+
+<!-- Projection dimension -->
+<line x1="200" y1="80" x2="200" y2="92" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="231" y1="80" x2="231" y2="92" stroke="#5F5E5A" stroke-width="0.75"/>
+<line x1="200" y1="86" x2="231" y2="86" stroke="#5F5E5A" stroke-width="0.75"/>
+<text x="188" y="76" font-size="11" fill="#5F5E5A">finish stack ~1" proud of stud face</text>
+
+<!-- Right-side structure labels -->
+<line x1="323" y1="150" x2="440" y2="120" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="446" y="116" font-size="13" font-weight="bold" fill="#2C2C2A">Steel stud — full track width</text>
+<text x="446" y="132" font-size="11" fill="#5F5E5A">3-5/8" 20-ga EQ, cut 32-13/16"; web spans</text>
+<text x="446" y="146" font-size="11" fill="#5F5E5A">flange to flange, nested in track</text>
+
+<line x1="327" y1="325" x2="440" y2="200" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="446" y="196" font-size="13" font-weight="bold" fill="#2C2C2A">Bottom track</text>
+<text x="446" y="212" font-size="11" fill="#5F5E5A">front flange flush with PT front face;</text>
+<text x="446" y="226" font-size="11" fill="#5F5E5A">screwed to stud both flanges, #8 TEK</text>
+
+<line x1="327" y1="355" x2="440" y2="262" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="446" y="258" font-size="13" font-weight="bold" fill="#2C2C2A">Sill seal foam</text>
+<text x="446" y="274" font-size="11" fill="#5F5E5A">isolates PT from steel (ACQ eats zinc)</text>
+
+<line x1="318" y1="378" x2="440" y2="312" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="446" y="308" font-size="13" font-weight="bold" fill="#2C2C2A">PT 2x4 sill, laid flat</text>
+<text x="446" y="324" font-size="11" fill="#5F5E5A">UC3A; bedded in PL Premium;</text>
+<text x="446" y="338" font-size="11" fill="#5F5E5A">3.5" wide — track is 1/8" wider, so back</text>
+<text x="446" y="352" font-size="11" fill="#5F5E5A">flange overhangs slightly (fine)</text>
+
+<line x1="316" y1="404" x2="440" y2="382" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="446" y="378" font-size="13" font-weight="bold" fill="#2C2C2A">Shims at bearing points</text>
+<text x="446" y="394" font-size="11" fill="#5F5E5A">packed up to laser datum, never ground down</text>
+
+<line x1="530" y1="430" x2="560" y2="430" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="566" y="426" font-size="13" font-weight="bold" fill="#2C2C2A">Pavers</text>
+<text x="566" y="442" font-size="11" fill="#5F5E5A">high pt =</text>
+<text x="566" y="456" font-size="11" fill="#5F5E5A">datum</text>
+
+<!-- Left-side finish labels -->
+<line x1="200" y1="150" x2="130" y2="150" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="140" y="140" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">Porcelain plank</text>
+<text x="140" y="156" font-size="11" fill="#5F5E5A" text-anchor="end">~3/8", vertical</text>
+
+<line x1="209" y1="240" x2="130" y2="240" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="140" y="230" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">Thinset ~3/16"</text>
+<text x="140" y="246" font-size="11" fill="#5F5E5A" text-anchor="end">back-buttered</text>
+
+<line x1="214" y1="300" x2="130" y2="300" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="145" y="284" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">1/2" cement board</text>
+<text x="145" y="300" font-size="11" fill="#5F5E5A" text-anchor="end">RedGard coat (red line);</text>
+<text x="145" y="314" font-size="11" fill="#5F5E5A" text-anchor="end">drops PAST track + PT,</text>
+<text x="145" y="328" font-size="11" fill="#5F5E5A" text-anchor="end">covering the sill</text>
+
+<line x1="198" y1="399" x2="130" y2="380" stroke="#888780" stroke-width="0.6" stroke-dasharray="3 3"/>
+<text x="140" y="368" font-size="13" font-weight="bold" fill="#2C2C2A" text-anchor="end">Weep screed</text>
+<text x="140" y="384" font-size="11" fill="#5F5E5A" text-anchor="end">stops ~1/2" above pavers;</text>
+<text x="140" y="398" font-size="11" fill="#5F5E5A" text-anchor="end">drains the wall</text>
+
+<!-- Fastener key -->
+<text x="70" y="492" font-size="11" fill="#A32D2D">■ Tapcon: PT to paver</text>
+<text x="230" y="492" font-size="11" fill="#534AB7">■ #10 x 3/4" hex TEK (G185/SS): track to PT</text>
+<text x="70" y="510" font-size="11" fill="#0F6E56">■ #9 x 1-1/4" backer screw: board to stud/track leg, 8" o.c.</text>
+<text x="446" y="510" font-size="11" fill="#5F5E5A">Stack totals 34-13/16" to deck top</text>
+</svg>
