@@ -8,7 +8,10 @@ A static field-guide site for the San Diego outdoor kitchen build. It turns `doc
 npm install
 npm run dev        # local dev server; edits to docs/ re-ingest live
 npm run build      # → dist/index.html
+npm run deploy     # build + publish to GitHub Pages
 ```
+
+**Live site:** https://casland.github.io/OutdoorKitchenMaster/ — served from the `gh-pages` branch. After editing content, run `npm run deploy` (and `git push` to keep the source on GitHub current). If you ever want push-to-deploy automation instead: run `gh auth refresh -s workflow` once in your own terminal, then ask for the Actions workflow to be restored (it was drafted but needs that scope to push).
 
 `dist/index.html` is one self-contained file (~350 KB): host it anywhere, copy it to a phone, or just double-click it — it works offline from `file://`, no server needed.
 

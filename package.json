@@ -8,6 +8,7 @@
     "ingest": "node scripts/ingest.mjs",
     "dev": "node scripts/ingest.mjs && vite",
     "build": "node scripts/ingest.mjs && vite build",
+    "deploy": "node scripts/ingest.mjs && vite build && node scripts/deploy-pages.mjs",
     "preview": "vite preview"
   },
   "devDependencies": {
