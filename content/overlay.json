@@ -73,7 +73,16 @@
       "resolution": null
     }
   ],
-  "flags": [],
+  "flags": [
+    {
+      "id": "F1",
+      "severity": "review",
+      "summary": "Coyote SL conversion kit costs ~$320 at the manufacturer — the guide budgets ~$60–100 for the LP→NG swap.",
+      "details": "Owner-verified July 2026 on coyotegrill.com: SL-series kits exist BOTH directions — LP→NG (C3LP2NG) and NG→LP (C3NG2LP) — at roughly $320 each, so budget ~$250 more than the guide's Phase −1 fuel note and D11 estimate (installer hour still applies). Both-way availability also de-risks the LP-first strategy: the fuel choice is reversible for the kit price.",
+      "locations": [{ "doc": "build-guide", "anchor": "phase--1" }],
+      "status": "open"
+    }
+  ],
   "materialsPhaseMap": {
     "Plumbing rough-in": [-1],
     "Base": [0],
